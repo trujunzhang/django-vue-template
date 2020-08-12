@@ -1,6 +1,6 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.org/simple"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
 verify_ssl = true
 
 [dev-packages]
@@ -12,6 +12,16 @@ gunicorn = "*"
 whitenoise = "==4.0"
 dj-database-url = "*"
 psycopg2-binary = "*"
+apscheduler = "==3.5.1"
+scrapy = "==1.5.0"
+scrapy-redis = "==0.6.8"
+scrapy-splash = "==0.7.2"
+python-scrapyd-api = "==2.1.2"
+beautifulsoup4 = "==4.7.0"
+django-apscheduler = "==0.3.0"
+furl = "==2.1.0"
+pymongo = "==3.9.0"
+jinja2 = "==2.10.1"
 
 [requires]
 python_version = "3.7"

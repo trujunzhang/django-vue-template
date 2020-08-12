@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-db.sqlite3
+# db.sqlite3
 /dist
 /venv
 __pycache__
@@ -15,10 +15,12 @@ yarn-debug.log*
 yarn-error.log*
 
 # Editor directories and files
-.idea
+# .idea
 .vscode
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw*
+logs
+.idea/workspace.xml

@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'backend.api',
+    'django_apscheduler',
+    'backend.core',
 ]
 
 MIDDLEWARE = [
