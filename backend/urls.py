@@ -33,4 +33,4 @@ if 'runserver' in sys.argv:
     # start scheduler
     from backend.core.scheduler import sm
 
-    sm.start()
+    # sm.start()
