@@ -1,4 +1,5 @@
 import scrapy
+import time
 
 
 class QuotesSpider(scrapy.Spider):
@@ -14,5 +15,8 @@ class QuotesSpider(scrapy.Spider):
 
     def parse(self, response):
         page = response.url.split("/")[-2]
+        self.log("Printed immediately.")
+        time.sleep(7.2)
+        self.log("Printed after 7.2 seconds.")
         filename = 'quotes-%s.html' % page
-        self.log('Saved file %s' % filename)
+        self.log('Saved file is %s' % filename)

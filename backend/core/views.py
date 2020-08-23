@@ -666,7 +666,8 @@ def job_log(request, client_id, project_name, spider_name, job_id):
         url = log_url(client.ip, client.port, project_name, spider_name, job_id)
         # get last 1000 bytes of log
         response = requests.get(url, timeout=5, headers={
-            'Range': 'bytes=-1000'
+            # 'Range': 'bytes=-1000'
+            # 'Range': 'bytes=500'
         }, auth=(client.username, client.password) if client.auth else None)
         # Get encoding
         encoding = response.apparent_encoding

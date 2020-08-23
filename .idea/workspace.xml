@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09c78788-5475-4b68-b800-f9ce3a86e815" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc0e570a-9ddb-4813-b96a-1ad5abb58b44.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbs/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/dbs/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/tutorial/tutorial/spiders/quotes_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/tutorial/tutorial/spiders/quotes_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/client/Schedule.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/client/Schedule.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="4b635dc3-73b1-4b97-b4e1-bd2d2ab0d647" />
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectId" id="1fzqVhJi3o5qRVfCpnkhceps39F" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -27,11 +36,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Django Server.server">
+  <component name="RunManager" selected="npm.serve">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="django-vue-template" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -48,6 +60,29 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cmd/__init__.py" />
       <option name="PARAMETERS" value="runserver localhost:8000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__(all)" type="PythonConfigurationType" factoryName="Python">
+      <module name="django-vue-template" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="APP_DEBUG" value="true" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cmd/__init__.py" />
+      <option name="PARAMETERS" value="makemigrations" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -79,13 +114,22 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Django Server.server" />
-      <item itemvalue="Python.__init__" />
+      <item itemvalue="npm.serve" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__init__" />
+        <item itemvalue="npm.serve" />
       </list>
     </recent_temporary>
   </component>
@@ -103,6 +147,24 @@
       <workItem from="1597232755335" duration="1110000" />
       <workItem from="1597287558327" duration="83000" />
       <workItem from="1597287853403" duration="202000" />
+      <workItem from="1597292681911" duration="2044000" />
+      <workItem from="1597306185353" duration="258000" />
+      <workItem from="1597319403344" duration="616000" />
+      <workItem from="1597399837748" duration="89000" />
+      <workItem from="1597998637929" duration="1426000" />
+      <workItem from="1598015274057" duration="464000" />
+      <workItem from="1598015861605" duration="489000" />
+      <workItem from="1598060336572" duration="1305000" />
+      <workItem from="1598062749671" duration="330000" />
+      <workItem from="1598064117436" duration="833000" />
+      <workItem from="1598090057466" duration="496000" />
+      <workItem from="1598091668787" duration="270000" />
+      <workItem from="1598149148654" duration="322000" />
+      <workItem from="1598151490416" duration="40000" />
+      <workItem from="1598151862238" duration="2000" />
+      <workItem from="1598156129839" duration="1690000" />
+      <workItem from="1598162643935" duration="132000" />
+      <workItem from="1598163583729" duration="151000" />
     </task>
     <servers />
   </component>
@@ -110,56 +172,104 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597232005741">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598064756998">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1597232005741" />
-    <state width="708" height="466" key="DebuggerActiveHint" timestamp="1597232389317">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1598064756998" />
+    <state width="741" height="466" key="DebuggerActiveHint" timestamp="1597294864351">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="708" height="466" key="DebuggerActiveHint/0.0.1280.800@0.0.1280.800" timestamp="1597232389317" />
-    <state width="1238" height="596" key="GridCell.Tab.0.bottom" timestamp="1597287642272">
+    <state width="741" height="466" key="DebuggerActiveHint/0.0.1280.800@0.0.1280.800" timestamp="1597294864351" />
+    <state width="1238" height="251" key="GridCell.Tab.0.bottom" timestamp="1598163554954">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="596" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597287642272" />
-    <state width="1238" height="596" key="GridCell.Tab.0.center" timestamp="1597287642270">
+    <state width="1238" height="251" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598163554954" />
+    <state width="1238" height="251" key="GridCell.Tab.0.center" timestamp="1598163554952">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="596" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1597287642269" />
-    <state width="1238" height="596" key="GridCell.Tab.0.left" timestamp="1597287642268">
+    <state width="1238" height="251" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598163554952" />
+    <state width="1238" height="251" key="GridCell.Tab.0.left" timestamp="1598163554952">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="596" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1597287642268" />
-    <state width="1238" height="596" key="GridCell.Tab.0.right" timestamp="1597287642271">
+    <state width="1238" height="251" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598163554952" />
+    <state width="1238" height="251" key="GridCell.Tab.0.right" timestamp="1598163554953">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="596" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1597287642271" />
-    <state width="1238" height="596" key="GridCell.Tab.1.bottom" timestamp="1597287642280">
+    <state width="1238" height="251" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598163554953" />
+    <state width="1238" height="251" key="GridCell.Tab.1.bottom" timestamp="1598163554956">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="596" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1597287642280" />
-    <state width="1238" height="345" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1597233332611" />
-    <state width="1238" height="596" key="GridCell.Tab.1.center" timestamp="1597287642276">
+    <state width="1238" height="251" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598163554956" />
+    <state width="1238" height="251" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1598161925123" />
+    <state width="1238" height="251" key="GridCell.Tab.1.center" timestamp="1598163554955">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="596" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1597287642276" />
-    <state width="1238" height="345" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1597233332608" />
-    <state width="1238" height="596" key="GridCell.Tab.1.left" timestamp="1597287642274">
+    <state width="1238" height="251" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1598163554955" />
+    <state width="1238" height="251" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1598161925121" />
+    <state width="1238" height="251" key="GridCell.Tab.1.left" timestamp="1598163554954">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="596" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1597287642274" />
-    <state width="1238" height="345" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1597233332606" />
-    <state width="1238" height="596" key="GridCell.Tab.1.right" timestamp="1597287642278">
+    <state width="1238" height="251" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1598163554954" />
+    <state width="1238" height="251" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1598161925120" />
+    <state width="1238" height="251" key="GridCell.Tab.1.right" timestamp="1598163554955">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="596" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1597287642278" />
-    <state width="1238" height="345" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1597233332609" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1597231739464">
+    <state width="1238" height="251" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1598163554955" />
+    <state width="1238" height="251" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1598161925122" />
+    <state width="1238" height="251" key="GridCell.Tab.2.bottom" timestamp="1598162988510">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1597231739464" />
+    <state width="1238" height="251" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598162988510" />
+    <state width="1238" height="251" key="GridCell.Tab.2.center" timestamp="1598162988509">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="251" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1598162988509" />
+    <state width="1238" height="251" key="GridCell.Tab.2.left" timestamp="1598162988508">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="251" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1598162988508" />
+    <state width="1238" height="251" key="GridCell.Tab.2.right" timestamp="1598162988509">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="251" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1598162988509" />
+    <state width="1238" height="251" key="GridCell.Tab.3.bottom" timestamp="1598162988512">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="251" key="GridCell.Tab.3.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598162988512" />
+    <state width="1238" height="251" key="GridCell.Tab.3.center" timestamp="1598162988511">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="251" key="GridCell.Tab.3.center/0.0.1280.800@0.0.1280.800" timestamp="1598162988511" />
+    <state width="1238" height="251" key="GridCell.Tab.3.left" timestamp="1598162988510">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="251" key="GridCell.Tab.3.left/0.0.1280.800@0.0.1280.800" timestamp="1598162988510" />
+    <state width="1238" height="251" key="GridCell.Tab.3.right" timestamp="1598162988511">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="251" key="GridCell.Tab.3.right/0.0.1280.800@0.0.1280.800" timestamp="1598162988511" />
+    <state x="141" y="39" key="SettingsEditor" timestamp="1598064197750">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1598064197750" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1598090550871">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1280.800@0.0.1280.800" timestamp="1598090550871" />
+    <state x="341" y="155" width="598" height="490" key="find.popup" timestamp="1598005274975">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="341" y="155" width="598" height="490" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1598005274975" />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/django_vue_template$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1597233106985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/project/Deploy.vue</url>
+          <line>229</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

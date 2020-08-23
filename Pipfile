@@ -4,10 +4,12 @@ url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
 verify_ssl = true
 
 [dev-packages]
+gerapy = "==0.9.5"
+scrapyd = "==1.2.1"
 
 [packages]
-django = "==2.1.4"
-djangorestframework = "*"
+django = "==1.11.29"
+djangorestframework = "==3.9.2"
 gunicorn = "*"
 whitenoise = "==4.0"
 dj-database-url = "*"
